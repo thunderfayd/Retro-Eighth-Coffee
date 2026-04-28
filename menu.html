@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Menu — Retro Eighth Coffee &amp; Açaí</title>
+<meta name="description" content="Full menu: coffee, açaí bowls, sandwiches, salads, grain bowls, monthly specials, and kids menu at Retro Eighth Coffee in Manitowoc, WI." />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bowlby+One&family=Caprasimo&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&family=Pacifico&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<nav class="topnav">
+  <div class="topnav-inner">
+    <a class="nav-logo" href="index.html">
+      <span class="nl-1">Retro</span>
+      <span class="nl-2">Eighth</span>
+    </a>
+    <button class="nav-toggle" aria-label="Menu" id="navToggle"><span></span><span></span><span></span></button>
+    <div class="nav-links" id="navLinks">
+      <a href="index.html">Home</a>
+      <a href="menu.html" class="active">Menu</a>
+      <a href="events.html">Events</a>
+      <a href="catering.html">Catering</a>
+      <a href="visit.html">Visit</a>
+    </div>
+    <a class="nav-cta" href="visit.html">Find Us</a>
+  </div>
+</nav>
+
+<header class="page-header">
+  <div class="page-header-inner">
+    <nav class="page-breadcrumb" aria-label="Breadcrumb">
+      <a href="index.html">Home</a>
+      <span class="sep">/</span>
+      <span class="here">Menu</span>
+    </nav>
+    <h1 class="page-title">The full <span class="em">menu</span>.</h1>
+    <p class="page-lede">Coffee, açaí, all-day eats, monthly specials, and a kids menu — laid out clean. Specials rotate every month, so peek at the chalkboard when you visit. Sizes and add-ons are noted within each section.</p>
+    <div class="page-header-stripes" aria-hidden="true">
+      <div style="background:var(--cream-2);"></div>
+      <div style="background:var(--coral);"></div>
+      <div style="background:var(--orange);"></div>
+      <div style="background:var(--teal);"></div>
+    </div>
+  </div>
+</header>
+
+<div class="stripes" aria-hidden="true">
+  <div class="s1"></div><div class="s2"></div><div class="s3"></div><div class="s4"></div>
+</div>
+
+<section class="menu section-pad">
+  <div class="menu-watermark" aria-hidden="true">MENU</div>
+  <div class="container">
+
+    <div class="menu-tabs" role="tablist">
+      <button class="menu-tab active" data-tab="coffee" role="tab">Coffee &amp; Drinks</button>
+      <button class="menu-tab" data-tab="acai" role="tab">Açaí Bowls</button>
+      <button class="menu-tab" data-tab="eats" role="tab">All-Day Eats</button>
+      <button class="menu-tab" data-tab="specials" role="tab">Monthly Specials</button>
+      <button class="menu-tab" data-tab="kids" role="tab">Kids Menu</button>
+    </div>
+
+    <!-- COFFEE -->
+    <div class="menu-panel active" data-panel="coffee">
+      <div class="size-legend">
+        <div><strong>HOT</strong> · 12 / 16 / 20 oz</div>
+        <div><strong>ICED</strong> · 16 / 20 / 24 oz</div>
+        <div><strong>ALT MILKS</strong> · +$1.25 (almond, oat, soy, coconut)</div>
+        <div><strong>COLD FOAMS</strong> · +$1.50</div>
+      </div>
+
+      <div class="menu-cats">
+        <div>
+          <div class="menu-cat-head"><h3>Espresso <span class="em">Bar</span></h3></div>
+          <div class="coffee-grid" style="grid-template-columns:1fr;">
+            <div class="coffee-item"><div class="coffee-name">Latte</div><div class="coffee-price">4.90 / 5.40 / 5.90 / 6.40</div></div>
+            <div class="coffee-item"><div class="coffee-name">Cappuccino</div><div class="coffee-price">4.90 / 5.40 / 5.90</div></div>
+            <div class="coffee-item"><div class="coffee-name">Mocha</div><div class="coffee-price">5.00 / 5.50 / 6.00 / 6.50</div></div>
+            <div class="coffee-item"><div class="coffee-name">Caramel Macchiato</div><div class="coffee-price">5.00 / 5.50 / 6.00 / 6.50</div></div>
+            <div class="coffee-item"><div class="coffee-name">Breve</div><div class="coffee-price">5.50 / 6.00 / 6.50 / 7.00</div></div>
+            <div class="coffee-item"><div class="coffee-name">Cortado</div><div class="coffee-price">4.20</div></div>
+            <div class="coffee-item"><div class="coffee-name">Espresso</div><div class="coffee-price">1.95 / 2.45</div></div>
+            <div class="coffee-item"><div class="coffee-name">Affogato</div><div class="coffee-price">7.00</div></div>
+            <div class="coffee-item"><div class="coffee-name">Red Eye</div><div class="coffee-price">4.15 / 4.75 / 5.15 / 5.75</div></div>
+            <div class="coffee-item"><div class="coffee-name">Americano</div><div class="coffee-price">3.85 / 4.35 / 4.85 / 5.35</div></div>
+            <div class="coffee-item"><div class="coffee-name">Dirty Chai</div><div class="coffee-price">5.10 / 5.60 / 6.10 / 6.60</div></div>
+          </div>
+        </div>
+
+        <div>
+          <div class="menu-cat-head"><h3>Brewed <span class="em">&amp; Pour</span></h3></div>
+          <div class="coffee-grid" style="grid-template-columns:1fr;">
+            <div class="coffee-item"><div class="coffee-name">Drip Brew</div><div class="coffee-price">3.10 / 3.60 / 4.10</div></div>
+            <div class="coffee-item"><div class="coffee-name">Cold Brew</div><div class="coffee-price">5.05 / 5.55 / 6.05</div></div>
+            <div class="coffee-item"><div class="coffee-name">French Press</div><div class="coffee-price">4.60</div></div>
+            <div class="coffee-item"><div class="coffee-name">Pour Over</div><div class="coffee-price">4.85</div></div>
+          </div>
+
+          <div class="menu-cat-head" style="margin-top:36px;"><h3>Not <span class="em">Coffee</span></h3></div>
+          <div class="coffee-grid" style="grid-template-columns:1fr;">
+            <div class="coffee-item"><div class="coffee-name">Frappe</div><div class="coffee-price">5.95 / 5.95 / 6.95</div></div>
+            <div class="coffee-item"><div class="coffee-name">Smoothie</div><div class="coffee-price">4.95 / 4.95 / 7.50</div></div>
+            <div class="coffee-item"><div class="coffee-name">Energy Fusion</div><div class="coffee-price">5.55 / 6.00 / 6.55</div></div>
+            <div class="coffee-item"><div class="coffee-name">Hot Chocolate</div><div class="coffee-price">3.50 / 3.95 / 4.50</div></div>
+            <div class="coffee-item"><div class="coffee-name">Rishi Tea</div><div class="coffee-price">2.75 / 3.25 / 3.75 / 4.25</div></div>
+            <div class="coffee-item"><div class="coffee-name">Tea Latte</div><div class="coffee-price">4.80 / 5.30 / 5.80 / 6.30</div></div>
+            <div class="coffee-item"><div class="coffee-name">San Pellegrino</div><div class="coffee-price">2.50 / 3.00</div></div>
+            <div class="coffee-item"><div class="coffee-name">Coconut Water</div><div class="coffee-price">3.00</div></div>
+            <div class="coffee-item"><div class="coffee-name">Protein Shake</div><div class="coffee-price">7.00</div></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="menu-cat-head" style="margin-top:60px;">
+        <h3>Coffee <span class="em">Flavors</span></h3>
+        <span class="pill">11 Syrups</span>
+      </div>
+      <div class="flavor-cloud">
+        <span class="flavor-chip">Vanilla</span>
+        <span class="flavor-chip">Sugar Free Vanilla</span>
+        <span class="flavor-chip">Caramel</span>
+        <span class="flavor-chip">Sugar Free Caramel</span>
+        <span class="flavor-chip">Hazelnut</span>
+        <span class="flavor-chip">Sugar Free Hazelnut</span>
+        <span class="flavor-chip">Mocha</span>
+        <span class="flavor-chip">White Mocha</span>
+        <span class="flavor-chip">Lavender</span>
+        <span class="flavor-chip">Honey</span>
+        <span class="flavor-chip">Brown Sugar</span>
+      </div>
+
+      <div class="menu-cat-head" style="margin-top:36px;">
+        <h3>Tea <span class="em">Selection</span></h3>
+      </div>
+      <div class="flavor-cloud">
+        <span class="flavor-chip">Peach Blossom</span>
+        <span class="flavor-chip">Earl Grey</span>
+        <span class="flavor-chip">Chai Latte</span>
+        <span class="flavor-chip">Jade Cloud</span>
+        <span class="flavor-chip">Matcha Latte</span>
+        <span class="flavor-chip">Orange Blossom</span>
+        <span class="flavor-chip alt">Turmeric Ginger</span>
+        <span class="flavor-chip alt">Chamomile Medley</span>
+        <span class="flavor-chip alt">Peppermint</span>
+        <span class="flavor-chip alt">Elderberry Healer</span>
+      </div>
+
+      <div class="menu-cat-head" style="margin-top:36px;">
+        <h3>Energy Fusion <span class="em">Flavors</span></h3>
+      </div>
+      <div class="flavor-cloud">
+        <span class="flavor-chip cold">Raspberry</span>
+        <span class="flavor-chip cold">Cherry</span>
+        <span class="flavor-chip cold">Banana</span>
+        <span class="flavor-chip cold">Chipotle Pineapple</span>
+        <span class="flavor-chip cold">Watermelon</span>
+        <span class="flavor-chip cold">Blueberry</span>
+      </div>
+    </div>
+
+    <!-- AÇAÍ -->
+    <div class="menu-panel" data-panel="acai">
+      <div class="menu-cats">
+        <div>
+          <div class="menu-cat-head">
+            <h3>House <span class="em">Bowls</span></h3>
+            <span class="pill">$11 each</span>
+          </div>
+          <div class="menu-items">
+            <div class="item"><div><div class="item-name linked">Retro Eighth Bowl</div><div class="item-desc">Açaí base, honey almond granola, strawberries, blueberries, banana, goji berries, honey.</div></div><div class="item-price">$11</div></div>
+            <div class="item"><div><div class="item-name linked">Sunflower Bowl</div><div class="item-desc">Açaí base, honey almond granola, mango, kiwi, banana, coconut, chia seeds.</div></div><div class="item-price">$11</div></div>
+            <div class="item"><div><div class="item-name linked">Cozumel Bowl</div><div class="item-desc">Açaí base, honey almond granola, mango, strawberries, banana, tajín, honey.</div></div><div class="item-price">$11</div></div>
+            <div class="item"><div><div class="item-name linked">Smoothie Bowl</div><div class="item-desc">Banana, mango, strawberries, blueberries, raspberries, kiwi, goji, pineapple, chocolate chips, pecans, almonds, coconut, flax, chia, honey, peanut butter, marshmallows, cacao, white chocolate. Pick your build.</div></div><div class="item-price">$8.95</div></div>
+          </div>
+        </div>
+
+        <div>
+          <div class="menu-cat-head">
+            <h3>Custom <span class="em">Build</span></h3>
+            <span class="pill">$11</span>
+          </div>
+          <p style="font-size:0.97rem; color:var(--ink-soft); line-height:1.6; margin-bottom:18px;">
+            Includes açaí base, honey almond granola, and your pick of 5 toppings.
+          </p>
+          <div class="flavor-cloud">
+            <span class="flavor-chip">Strawberries</span><span class="flavor-chip">Banana</span><span class="flavor-chip">Blueberries</span><span class="flavor-chip">Raspberries</span><span class="flavor-chip">Kiwi</span><span class="flavor-chip">Mango</span><span class="flavor-chip">Coconut</span><span class="flavor-chip">Goji Berries</span><span class="flavor-chip">Chocolate Chips</span><span class="flavor-chip">Honey</span><span class="flavor-chip">Flax Seeds</span><span class="flavor-chip">Chia Seeds</span><span class="flavor-chip">Hemp Seeds</span><span class="flavor-chip">Bee Pollen</span><span class="flavor-chip">Pecans</span><span class="flavor-chip">Almonds</span><span class="flavor-chip">Peanut Butter</span><span class="flavor-chip">Almond Butter</span><span class="flavor-chip">Cocoa Powder</span><span class="flavor-chip">Beet Powder</span><span class="flavor-chip">Cookie Dough</span><span class="flavor-chip">Dragonfruit Boba</span><span class="flavor-chip">Nutella</span><span class="flavor-chip">Agave</span>
+          </div>
+
+          <div class="menu-cat-head" style="margin-top:30px;"><h3>Add-ons</h3></div>
+          <div class="menu-items">
+            <div class="item"><div class="item-name">Alt Bases <span class="item-desc" style="display:inline; font-weight:400;">— Ube (lighter purple) or Dragonfruit (pink)</span></div><div class="item-price">+$0.60</div></div>
+            <div class="item"><div class="item-name">Extra Topping</div><div class="item-price">+$0.60</div></div>
+            <div class="item"><div class="item-name">Gluten-Free Granola</div><div class="item-price">+$0.85</div></div>
+            <div class="item"><div class="item-name">Bowl of the Month</div><div class="item-price">$9.75</div></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- EATS -->
+    <div class="menu-panel" data-panel="eats">
+      <div class="menu-cats">
+        <div>
+          <div class="menu-cat-head"><h3>Eggs <span class="em">&amp; Oats</span></h3></div>
+          <div class="menu-items">
+            <div class="item"><div><div class="item-name linked">Bacon, Chive &amp; Cheddar Egg Bites</div><div class="item-desc">Made-to-order, two eggs scrambled with real bacon bits, chives, and cheddar.</div></div><div class="item-price">$5.75</div></div>
+            <div class="item"><div><div class="item-name linked">Basic B Breakfast Sandwich</div><div class="item-desc">Plain or everything bagel with egg, prosciutto, melty cheddar &amp; gouda.</div></div><div class="item-price">$8.00</div></div>
+            <div class="item"><div><div class="item-name linked">Egg Pesto Croissant</div><div class="item-desc">Warm golden croissant with mozzarella, egg, and pesto.</div></div><div class="item-price">$7.00</div></div>
+            <div class="item"><div><div class="item-name linked">Southwest Breakfast Burrito</div><div class="item-desc">Large burrito filled with bacon, brown rice, black beans, avocado, scrambled eggs, and salsa. Served with chipotle ranch.</div></div><div class="item-price">$10.00</div></div>
+            <div class="item"><div><div class="item-name linked">Your Choice Oatmeal</div><div class="item-desc">Oats &amp; ground flaxseed. Pick a milk (2%, almond, oat, soy, coconut) and three toppings — banana, berries, dried cherries, pecans, almonds, chia, honey, maple, cinnamon.</div></div><div class="item-price">$6.00</div></div>
+            <div class="item"><div><div class="item-name linked">Energy Bites</div><div class="item-desc">Offerings vary — check the grab &amp; go case for today's varieties.</div></div><div class="item-price">$8.50</div></div>
+          </div>
+        </div>
+
+        <div>
+          <div class="menu-cat-head"><h3>Sandwiches <span class="em">&amp; Toasts</span></h3></div>
+          <div class="menu-items">
+            <div class="item"><div><div class="item-name linked">Chipotle Aristotle</div><div class="item-desc">Plain or everything bagel with chicken, melty gouda, chipotle aioli, peppadew peppers, avocado.</div></div><div class="item-price">$10</div></div>
+            <div class="item"><div><div class="item-name linked">Henrietta Caesar Wrap</div><div class="item-desc">Spinach wrap with chicken, prosciutto, cheddar, avocado, spring greens, and house caesar.</div></div><div class="item-price">$10</div></div>
+            <div class="item"><div><div class="item-name linked">Smoked Salmon &amp; Cream Cheese</div><div class="item-desc">Toasted plain or everything bagel with whipped cream cheese and Susie Q smoked salmon.</div></div><div class="item-price">$9</div></div>
+            <div class="item"><div><div class="item-name linked">Dilly Sally</div><div class="item-desc">Toasted pumpernickel bagel with whipped lemon &amp; dill cream cheese, smoked salmon, spinach.</div></div><div class="item-price">$10</div></div>
+            <div class="item"><div><div class="item-name linked">Grilled Cheese &amp; Tomato Soup</div><div class="item-desc">Roasted red pepper &amp; tomato soup served with a sage butter grilled cheese.</div></div><div class="item-price">$9</div></div>
+            <div class="item"><div><div class="item-name linked">Avocado Toast</div><div class="item-desc">Two slices of sourdough topped with mashed avocado and our seasoning blend.</div></div><div class="item-price">$7</div></div>
+            <div class="item"><div><div class="item-name linked">Cream Cheese Bagel</div><div class="item-desc">Toasted plain, everything, or pumpernickel bagel with whipped cream cheese.</div></div><div class="item-price">$6</div></div>
+          </div>
+        </div>
+
+        <div>
+          <div class="menu-cat-head"><h3>Salads <span class="em">&amp; Wraps</span></h3></div>
+          <div class="menu-items">
+            <div class="item"><div><div class="item-name linked">Chicken Caesar Salad</div><div class="item-desc">Spring greens, shredded chicken, avocado, parmesan, caesar croutons, caesar dressing.</div></div><div class="item-price">$11</div></div>
+            <div class="item"><div><div class="item-name linked">Summer Salad</div><div class="item-desc">Spring greens, shredded chicken, sliced pears, dried cherries, goat cheese, avocado, pecans, lemon garlic dressing.</div></div><div class="item-price">$12</div></div>
+          </div>
+        </div>
+
+        <div>
+          <div class="menu-cat-head"><h3>Grain <span class="em">Bowls</span></h3><span class="pill">$13 each</span></div>
+          <div class="menu-items">
+            <div class="item"><div><div class="item-name linked">Southwest Chicken</div><div class="item-desc">Brown rice with cilantro, chicken, black beans, corn, spring greens, avocado, pico de gallo, chipotle dressing.</div></div><div class="item-price">$13</div></div>
+            <div class="item"><div><div class="item-name linked">Spicy Salmon</div><div class="item-desc">White rice, smoked salmon, avocado, cucumber, mango, fried shallots, sesame seeds, spicy mayo, soy sauce.</div></div><div class="item-price">$13</div></div>
+            <div class="item"><div><div class="item-name linked">Chicken Cashew</div><div class="item-desc">Brown rice, chicken, sweet potatoes, lentils, spring greens, carrots, avocado, cashew dressing.</div></div><div class="item-price">$13</div></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="menu-cat-head" style="margin-top:60px;">
+        <h3>Bakery <span class="em">Case</span></h3>
+        <span class="pill">Daily</span>
+      </div>
+      <div class="coffee-grid">
+        <div class="coffee-item"><div class="coffee-name">Donuts</div><div class="coffee-price">$2.50</div></div>
+        <div class="coffee-item"><div class="coffee-name">Cookies</div><div class="coffee-price">$2.50</div></div>
+        <div class="coffee-item"><div class="coffee-name">Cake Pops</div><div class="coffee-price">$3</div></div>
+        <div class="coffee-item"><div class="coffee-name">Scones</div><div class="coffee-price">$3</div></div>
+        <div class="coffee-item"><div class="coffee-name">Muffins</div><div class="coffee-price">$3</div></div>
+        <div class="coffee-item"><div class="coffee-name">Cinnamon Bun</div><div class="coffee-price">$4.50</div></div>
+      </div>
+    </div>
+
+    <!-- SPECIALS -->
+    <div class="menu-panel" data-panel="specials">
+      <div class="menu-cat-head">
+        <h3>Signature <span class="em">Lattes</span></h3>
+        <span class="pill">Rotating</span>
+      </div>
+      <p style="color:var(--ink-soft); margin-bottom:24px; font-size:1rem;">Our barista team builds new specialty drinks every month. Here's a snapshot — ask what's on the chalkboard today.</p>
+      <div class="signature-row">
+        <div class="sig-card"><div class="sig-name">Bluebird Latte</div><div class="sig-desc">Espresso, oat milk, elderflower, blueberry, juniper bitters.</div></div>
+        <div class="sig-card"><div class="sig-name">Gochujang Caramel</div><div class="sig-desc">Espresso, oat milk, caramel sauce, gochujang, sea salt.</div></div>
+        <div class="sig-card"><div class="sig-name">Bananas Foster</div><div class="sig-desc">Espresso, oat milk, banana, vanilla, cinnamon, rum extract.</div></div>
+        <div class="sig-card"><div class="sig-name">Black Sugar Matcha</div><div class="sig-desc">Rishi organic matcha, milk, black sugar cold foam.</div></div>
+        <div class="sig-card"><div class="sig-name">Campfire S'mores</div><div class="sig-desc">Espresso, oat milk, brown sugar, cocoa, honey, cinnamon, marshmallow fluff foam.</div></div>
+        <div class="sig-card"><div class="sig-name">Salty Dog</div><div class="sig-desc">Espresso, oat milk, honey, amaretto, sea salt.</div></div>
+        <div class="sig-card"><div class="sig-name">Lemon Cheesecake Affogato</div><div class="sig-desc">Cedar Crest lemon cheesecake ice cream, Big Dipper organic espresso.</div></div>
+        <div class="sig-card"><div class="sig-name">Golden Hour Refresher</div><div class="sig-desc">Organic turmeric ginger Rishi tea, mango pineapple juice, coconut water, lemon juice, honey.</div></div>
+      </div>
+
+      <div class="menu-cat-head" style="margin-top:60px;">
+        <h3>Coffee <span class="em">Flights</span></h3>
+        <span class="pill">$12</span>
+      </div>
+      <p style="color:var(--ink-soft); font-size:1rem; max-width:60ch;">Four mini drinks built around the month's specials, served on a tray. The most photogenic thing on our menu — and arguably the most fun.</p>
+
+      <div class="menu-cat-head" style="margin-top:48px;">
+        <h3>Bowl <span class="em">of the Month</span></h3>
+        <span class="pill">$9.75</span>
+      </div>
+      <p style="color:var(--ink-soft); font-size:1rem; max-width:60ch;">A new açaí or smoothie bowl every month — past hits include ube base with honey almond granola, coconut, almonds, chocolate chips, banana &amp; almond butter; and an açaí base with pineapple, strawberries, dragonfruit pearls &amp; mango.</p>
+
+      <div class="menu-cat-head" style="margin-top:48px;">
+        <h3>Protein <span class="em">Shakes</span></h3>
+        <span class="pill">$7</span>
+      </div>
+      <div class="signature-row">
+        <div class="sig-card"><div class="sig-name">Triple Berry</div><div class="sig-desc">Strawberries, raspberries, blueberries, banana, almond milk, vanilla pea protein.</div></div>
+        <div class="sig-card"><div class="sig-name">Mango Matcha</div><div class="sig-desc">Mango, banana, matcha, chia, coconut milk, vanilla pea protein.</div></div>
+        <div class="sig-card"><div class="sig-name">Banana Nut Bread</div><div class="sig-desc">Banana, pecans, peanut butter, almond milk, chocolate pea protein.</div></div>
+        <div class="sig-card"><div class="sig-name">Coco Collagen</div><div class="sig-desc">Pineapple, banana, agave, coconut milk, collagen, butterfly pea powder.</div></div>
+      </div>
+    </div>
+
+    <!-- KIDS -->
+    <div class="menu-panel" data-panel="kids">
+      <div class="kids-intro">
+        <div class="stars">★ ★ ★</div>
+        <div>
+          <h3>The Little Ones Menu</h3>
+          <p>Made for the smallest customers in the shop. Quick, friendly, and most things come with a smile.</p>
+        </div>
+      </div>
+
+      <div class="kids-grid">
+        <div class="kid-item"><div class="kn">Cheddar Cheese Egg Bites</div><div class="kp">$5.25</div></div>
+        <div class="kid-item"><div class="kn">Sourdough Grilled Cheese</div><div class="kp">$7.00</div></div>
+        <div class="kid-item"><div class="kn">Smucker's PB&amp;J</div><div class="kp">$2.50</div></div>
+        <div class="kid-item"><div class="kn">GoGo Applesauce</div><div class="kp">$2.00</div></div>
+        <div class="kid-item" style="grid-column:span 2;"><div class="kn">Energy Oat Bites</div><div class="kp">$8.50</div></div>
+      </div>
+
+      <div class="kids-note">&amp; lots of regulars-menu items kids love too — smoothies, bagels, açaí bowls, and more.</div>
+    </div>
+
+  </div>
+</section>
+
+<div class="stripes stripes-thick" aria-hidden="true">
+  <div class="s1"></div><div class="s2"></div><div class="s3"></div><div class="s4"></div>
+</div>
+
+<section class="cta-strip">
+  <div class="cta-strip-inner">
+    <h3>Bringing the team? <span class="em">We cater.</span></h3>
+    <div style="display:flex; gap:14px; flex-wrap:wrap;">
+      <a class="btn btn-primary" href="catering.html">Book Catering</a>
+      <a class="btn btn-ghost" href="visit.html">Find the Shop</a>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="footer-inner">
+    <div class="footer-top">
+      <div>
+        <div class="footer-mark"><span>Retro</span><span class="em">Eighth</span></div>
+        <p>A coffee &amp; açaí bar in downtown Manitowoc. Brewed with intention since day one. Bring your friends.</p>
+      </div>
+      <div class="footer-col">
+        <h5>Pages</h5>
+        <ul>
+          <li><a href="menu.html">Menu</a></li>
+          <li><a href="events.html">Events</a></li>
+          <li><a href="catering.html">Catering</a></li>
+          <li><a href="visit.html">Visit Us</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h5>Find Us</h5>
+        <ul>
+          <li><a href="https://instagram.com/retroeighthcoffee" target="_blank" rel="noopener">Instagram</a></li>
+          <li><a href="tel:9203746302">(920) 374·6302</a></li>
+          <li><a href="mailto:hello@retroeighth.coffee">hello@retroeighth.coffee</a></li>
+          <li><a href="https://maps.google.com/?q=801+N+8th+St+Manitowoc+WI" target="_blank" rel="noopener">Get Directions</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-stripes" aria-hidden="true">
+      <div style="background:var(--cream-2);"></div>
+      <div style="background:var(--coral);"></div>
+      <div style="background:var(--orange);"></div>
+      <div style="background:var(--teal);"></div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 Retro Eighth Coffee Co. · 801 N 8th St, Manitowoc, WI 54220</span>
+      <span>Designed with cream, coral, mustard &amp; teal.</span>
+    </div>
+  </div>
+</footer>
+
+<script>
+  const toggle = document.getElementById('navToggle');
+  const links  = document.getElementById('navLinks');
+  if (toggle) toggle.addEventListener('click', () => links.classList.toggle('open'));
+
+  const tabs = document.querySelectorAll('.menu-tab');
+  const panels = document.querySelectorAll('.menu-panel');
+  tabs.forEach(tab => {
+    tab.addEventListener('click', () => {
+      tabs.forEach(t => t.classList.remove('active'));
+      panels.forEach(p => p.classList.remove('active'));
+      tab.classList.add('active');
+      document.querySelector(`.menu-panel[data-panel="${tab.dataset.tab}"]`).classList.add('active');
+    });
+  });
+
+  // deep-link to a tab via ?tab=acai
+  const params = new URLSearchParams(window.location.search);
+  const want = params.get('tab');
+  if (want) {
+    const targetTab = document.querySelector(`.menu-tab[data-tab="${want}"]`);
+    if (targetTab) targetTab.click();
+  }
+</script>
+
+</body>
+</html>
